@@ -1,4 +1,6 @@
-columbine
+Columbine
 =========
 
-A historical project on the columbine school shootings.
+A historical project on the Columbine school shooting.
+
+by Ethan Niu
