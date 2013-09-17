@@ -13,11 +13,14 @@ nav {
     height: 100%;
     position: fixed;
 }
-nav ul li {
+nav ul li a {
     background-color: navy;
 }
 nav ul {
     background-color: navy;
+    position: relative;
+    top: 15px;
+    left: 20px;
 }
 h1 {
     display: inline-block;
