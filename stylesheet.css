@@ -27,9 +27,6 @@ section {
     display: block;
     margin-left: 200px;
 }
-nav li {
-    background: navy
-}
 .story {
     background: red;
 }
