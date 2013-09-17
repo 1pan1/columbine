@@ -39,4 +39,6 @@ section {
 footer {
     background: orange;
     margin-left: 200px;
+    position: absolute;
+    bottom: 0;
 }
