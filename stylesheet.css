@@ -16,11 +16,15 @@ nav {
 nav ul li a {
     background-color: navy;
 }
+nav ul li {
+    background-color: navy;
+}
 nav ul {
     background-color: navy;
     position: relative;
     top: 15px;
     left: 20px;
+    display: inline-block;
 }
 h1 {
     display: inline-block;
