@@ -26,6 +26,7 @@ h1 {
     display: inline-block;
     text-align: right;
     font-size: 22px;
+    margin: 20px;
     margin-left: 200px;
 }
 h2 {
