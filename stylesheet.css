@@ -19,3 +19,9 @@ section {
     display: inline-block;
     
 }
+.story {
+    background: red;
+}
+.impact {
+    background: green;
+}
