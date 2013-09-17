@@ -4,6 +4,8 @@
     padding: 0;
     margin: 0;
     font-family: 'Prosto One', cursive;
+    list-style-type: none;
+    text-decoration: none;
 }
 nav {
     background: navy;
@@ -34,5 +36,4 @@ section {
 }
 footer {
     background: orange;
-    list-style-type: none;
 }
