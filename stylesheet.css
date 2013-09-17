@@ -33,6 +33,9 @@ section {
 .impact {
     background: green;
 }
+.future {
+    background: purple;
+}
 footer {
     background: orange;
     margin-left: 200px;
