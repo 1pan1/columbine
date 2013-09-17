@@ -15,7 +15,7 @@ nav {
 h1 {
     display: inline-block;
     text-align: right;
-    font-size: 20px;
+    font-size: 24px;
     margin-left: 200px;
 }
 h2 {
@@ -31,4 +31,8 @@ section {
 }
 .impact {
     background: green;
+}
+footer {
+    background: orange;
+    list-style-type: none;
 }
