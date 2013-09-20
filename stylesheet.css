@@ -37,6 +37,9 @@ h2 {
     display: inline;
     margin-left: 200px;
 }
+div.container {
+    text-align: center;
+}
 section {
     display: block;
     margin-left: 200px;
