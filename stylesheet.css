@@ -8,6 +8,17 @@
     text-decoration: none;
 }
 
+a {
+    transition: .4s all ease-in;
+    -webkit-transition: .4s all ease-in;
+    -moz-transition: .4s all ease-in;
+    -o-transition: .4s all ease-in;
+}
+
+a:hover {
+    color: lime;
+}
+
 h1 {
     display: inline-block;
     font-size: 22px;
@@ -16,6 +27,8 @@ h1 {
 
 h2 {
     padding: 10px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
 }
 
 div.container {
@@ -35,6 +48,31 @@ p {
     text-align: left;
 }
 
+p.poem {
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+p.poem span {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    left: 45px;
+}
+
+p.poem span.expand {
+    font-size: 12px;
+    font-weight: normal;
+    float: right;
+    position: relative;
+    left: 0;
+}
+
+p.after {
+    margin-top: -30px;
+}
+
 .story h2 {
     background: red;
 }
@@ -48,10 +86,14 @@ p {
 }
 
 footer {
-    background: orange;
     text-align: right;
     margin-top: 50px;
     margin-right: 10px;
+}
+
+footer ul li {
+    display: inline;
+    padding-left: 30px;
 }
 
 @media screen and (min-width: 960px) {
