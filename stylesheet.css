@@ -103,8 +103,18 @@ div#toggletext1, div#toggletext2 {
 }
 
 .future h2 {
-    /*margin-top: -30px;*/
     background: #3B1700;
+}
+
+h1.sources {
+    padding: 0;
+    margin: 20px;
+}
+
+section.sources {
+    margin: 20px;
+    margin-top: 0;
+    padding-left: 10px;
 }
 
 footer {
