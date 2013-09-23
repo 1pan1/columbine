@@ -72,12 +72,26 @@ p.poem span.expand {
 
 div#toggleText {
     padding: 20px;
-    font-size: 14px;
+    font-size: 12px;
     text-align: left;
 }
 
 p.after {
     margin-top: -30px;
+}
+
+p.after span.expand {
+    font-size: 12px;
+    font-weight: normal;
+    float: right;
+    position: relative;
+    left: 0;
+}
+
+div#toggletext1, div#toggletext2 {
+    padding: 20px;
+    font-size: 12px;
+    text-align: left;
 }
 
 .story h2 {
@@ -89,6 +103,7 @@ p.after {
 }
 
 .future h2 {
+    /*margin-top: -30px;*/
     background: #3B1700;
 }
 
